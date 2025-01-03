@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+</head>
+<body>
+
+    <h1>My Simple Webpage</h1>
+    
+    <p id="text">Hello, welcome to my webpage!</p>
+    
+    <button onclick="changeText()">Click Me</button>
+    
+    <script>
+        function changeText() {
+            document.getElementById("text").innerHTML = "You clicked the button!";
+        }
+    </script>
+
+</body>
+</html>
