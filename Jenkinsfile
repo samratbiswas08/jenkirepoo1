@@ -19,7 +19,7 @@ pipeline {
                         aws s3 cp index.html s3://jenkibucket/
 
                         # Optionally, you can upload additional assets (like CSS, JS, etc.)
-                        aws s3 cp ./assets/ s3:// -jenbuckket -recursive
+                        aws s3 cp ./assets/ s3://jenkibucket/ --recursive
                     '''
                 }
             }
