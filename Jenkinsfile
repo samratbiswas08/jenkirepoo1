@@ -10,7 +10,7 @@ pipeline {
 
         stage('S3 Upload') {
             steps {
-                withAWS(region: 'us-east-1', credentials: '904a359d-f3e1-45b3-9c3f-5ec9ab0a7087') {
+                withAWS(region: 'us-east-1', credentials: '9b3b3615-bd33-456a-92a7-0f86526801e1') {
                     sh '''
                         # List contents to verify files are available
                         ls -la
